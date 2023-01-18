@@ -1,0 +1,28 @@
+{
+    "data": "/path/to/data/",
+    "traffic_signs": "/path/to/traffic_signs/",
+    "simple_cnn_model": "../models/simple_cnn_model.h5",
+    "advanced_cnn_model": "../models/advanced_cnn_model.h5",
+    "sign_threshold": 0.7,
+    "sign_crop_width": 80,
+    "sign_crop_height": 80,
+    "video_fps": 30,
+    "gaussian": {
+        "ksize": 5,
+        "sigma": 0
+    },
+    "hough": {
+        "dp": 0.5,
+        "min_distance": 20,
+        "param1": 50,
+        "param2": 50,
+        "min_radius": 10,
+        "max_radius": 40
+    },
+    "preprocessing": {
+        "crop_left": 960,
+        "crop_right": 0,
+        "crop_top": 0,
+        "crop_bottom": 300
+    }
+}
